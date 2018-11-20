@@ -1,0 +1,866 @@
+[
+  {
+    "file": "src/app1/index.js",
+    "map": [
+      {
+        "content": "活动名称",
+        "index": 0,
+        "hash": "39834b",
+        "txt": "活动名称",
+        "trans": "activityName"
+      },
+      {
+        "content": "活动名称（英文）",
+        "index": 1,
+        "hash": "c91a58",
+        "txt": "活动名称（英文）",
+        "trans": "activityNameEnglish"
+      },
+      {
+        "content": "项目管理员",
+        "index": 2,
+        "hash": "c98b01",
+        "txt": "项目管理员",
+        "trans": "projectManager"
+      },
+      {
+        "content": "请选择项目管理员",
+        "index": 3,
+        "hash": "2a1887",
+        "txt": "请选择项目管理员",
+        "trans": "selectProjectAdministrator"
+      },
+      {
+        "content": "请选择项目管理员",
+        "index": 4,
+        "hash": "2a1887",
+        "txt": "请选择项目管理员",
+        "trans": "selectProjectAdministrator"
+      },
+      {
+        "content": "活动操作者",
+        "index": 5,
+        "hash": "f812ac",
+        "txt": "活动操作者",
+        "trans": "activityOperator"
+      },
+      {
+        "content": "请选择调薪操作者",
+        "index": 6,
+        "hash": "340293",
+        "txt": "请选择调薪操作者",
+        "trans": "pleaseSelectASalaryRaising"
+      },
+      {
+        "content": "输入姓名／拼音／邮箱前缀进行搜索",
+        "index": 7,
+        "hash": "8a1283",
+        "txt": "输入姓名／拼音／邮箱前缀进行搜索",
+        "trans": "enterNamepinyinmailboxPrefixFor"
+      },
+      {
+        "content": "允许批量导入（勾选后，操作者可在活动中批量导入结果）",
+        "index": 8,
+        "hash": "3de020",
+        "txt": "允许批量导入（勾选后操作者可在活动中批量导入结果）",
+        "trans": "allowBatchImport-after"
+      },
+      {
+        "content": "配置审批流程",
+        "index": 9,
+        "hash": "0a26f4",
+        "txt": "配置审批流程",
+        "trans": "configurationApprovalProcess"
+      },
+      {
+        "content": "请选择审批人",
+        "index": 10,
+        "hash": "d93a9a",
+        "txt": "请选择审批人",
+        "trans": "pleaseChooseTheApprover"
+      },
+      {
+        "content": "输入姓名／拼音／邮箱前缀进行搜索",
+        "index": 11,
+        "hash": "8a1283",
+        "txt": "输入姓名／拼音／邮箱前缀进行搜索",
+        "trans": "enterNamepinyinmailboxPrefixFor"
+      }
+    ]
+  },
+  {
+    "file": "src/app2/index.js",
+    "map": [
+      {
+        "content": "正在加载大量数据，请稍等...💪",
+        "index": 0,
+        "hash": "4854fb",
+        "txt": "正在加载大量数据请稍等💪",
+        "trans": "loadingALotOf"
+      },
+      {
+        "content": "暂无数据",
+        "index": 1,
+        "hash": "21efd8",
+        "txt": "暂无数据",
+        "trans": "noData"
+      }
+    ]
+  },
+  {
+    "file": "src/app3/index.js",
+    "map": [
+      {
+        "content": "新增授权",
+        "index": 0,
+        "hash": "515a9b",
+        "txt": "新增授权",
+        "trans": "newAuthorization"
+      },
+      {
+        "content": "被授权人",
+        "index": 1,
+        "hash": "ff2053",
+        "txt": "被授权人",
+        "trans": "authorizedPerson"
+      },
+      {
+        "content": "二次授权",
+        "index": 2,
+        "hash": "937b06",
+        "txt": "二次授权",
+        "trans": "theTwoAuthorization"
+      },
+      {
+        "content": "授权对象",
+        "index": 3,
+        "hash": "8124ff",
+        "txt": "授权对象",
+        "trans": "authorizedObject"
+      },
+      {
+        "content": "更多",
+        "index": 4,
+        "hash": "0ec9ea",
+        "txt": "更多",
+        "trans": "more"
+      },
+      {
+        "content": "员工数",
+        "index": 5,
+        "hash": "725179",
+        "txt": "员工数",
+        "trans": "numberOfEmployees"
+      },
+      {
+        "content": "人",
+        "index": 6,
+        "hash": "465afe",
+        "txt": "人",
+        "trans": "people"
+      },
+      {
+        "content": "授权类型",
+        "index": 7,
+        "hash": "53782f",
+        "txt": "授权类型",
+        "trans": "authorizationType"
+      },
+      {
+        "content": "授权时间",
+        "index": 8,
+        "hash": "9c4bb4",
+        "txt": "授权时间",
+        "trans": "authorizedTime"
+      },
+      {
+        "content": "异常提示",
+        "index": 9,
+        "hash": "4bb98f",
+        "txt": "异常提示",
+        "trans": "exceptionPrompt"
+      },
+      {
+        "content": "更多",
+        "index": 10,
+        "hash": "0ec9ea",
+        "txt": "更多",
+        "trans": "more"
+      },
+      {
+        "content": "授权原因",
+        "index": 11,
+        "hash": "2b7c6d",
+        "txt": "授权原因",
+        "trans": "reasonsForAuthorization"
+      },
+      {
+        "content": "权限状态",
+        "index": 12,
+        "hash": "b714df",
+        "txt": "权限状态",
+        "trans": "permissionStatus"
+      },
+      {
+        "content": "操作",
+        "index": 13,
+        "hash": "2b6bc0",
+        "txt": "操作",
+        "trans": "operation"
+      },
+      {
+        "content": "确定",
+        "index": 14,
+        "hash": "38cf16",
+        "txt": "确定",
+        "trans": "sure"
+      },
+      {
+        "content": "取消",
+        "index": 15,
+        "hash": "625fb2",
+        "txt": "取消",
+        "trans": "cancel"
+      },
+      {
+        "content": "驳回结果",
+        "index": 16,
+        "hash": "736199",
+        "txt": "驳回结果",
+        "trans": "rejectionResult"
+      },
+      {
+        "content": "确定",
+        "index": 17,
+        "hash": "38cf16",
+        "txt": "确定",
+        "trans": "sure"
+      },
+      {
+        "content": "取消",
+        "index": 18,
+        "hash": "625fb2",
+        "txt": "取消",
+        "trans": "cancel"
+      },
+      {
+        "content": "取消授权",
+        "index": 19,
+        "hash": "5642a3",
+        "txt": "取消授权",
+        "trans": "cancellationOfAuthorization"
+      },
+      {
+        "content": "取消授权后被授权人将不再看到活动，被授权人操作的所有授权也会被取消，驳回结果后，被授权人将重新拥有编辑权限",
+        "index": 20,
+        "hash": "b08842",
+        "txt": "取消授权后被授权人将不再看到活动被授权人操作的所有授权也会被取消驳回结果后被授权人将重新拥有编辑权限",
+        "trans": "theAuthorizedPersonWill"
+      }
+    ]
+  },
+  {
+    "file": "src/app4/index.js",
+    "map": [
+      {
+        "content": "被授权人",
+        "index": 0,
+        "hash": "ff2053",
+        "txt": "被授权人",
+        "trans": "authorizedPerson"
+      },
+      {
+        "content": "所属活动",
+        "index": 1,
+        "hash": "c4f8f2",
+        "txt": "所属活动",
+        "trans": "activitiesInvolved"
+      },
+      {
+        "content": "授权对象",
+        "index": 2,
+        "hash": "8124ff",
+        "txt": "授权对象",
+        "trans": "authorizedObject"
+      },
+      {
+        "content": "更多",
+        "index": 3,
+        "hash": "0ec9ea",
+        "txt": "更多",
+        "trans": "more"
+      },
+      {
+        "content": "员工数",
+        "index": 4,
+        "hash": "725179",
+        "txt": "员工数",
+        "trans": "numberOfEmployees"
+      },
+      {
+        "content": "授权类型",
+        "index": 5,
+        "hash": "53782f",
+        "txt": "授权类型",
+        "trans": "authorizationType"
+      },
+      {
+        "content": "授权时间",
+        "index": 6,
+        "hash": "9c4bb4",
+        "txt": "授权时间",
+        "trans": "authorizedTime"
+      },
+      {
+        "content": "异常提示",
+        "index": 7,
+        "hash": "4bb98f",
+        "txt": "异常提示",
+        "trans": "exceptionPrompt"
+      },
+      {
+        "content": "更多",
+        "index": 8,
+        "hash": "0ec9ea",
+        "txt": "更多",
+        "trans": "more"
+      },
+      {
+        "content": "授权原因",
+        "index": 9,
+        "hash": "2b7c6d",
+        "txt": "授权原因",
+        "trans": "reasonsForAuthorization"
+      },
+      {
+        "content": "权限状态",
+        "index": 10,
+        "hash": "b714df",
+        "txt": "权限状态",
+        "trans": "permissionStatus"
+      },
+      {
+        "content": "操作",
+        "index": 11,
+        "hash": "2b6bc0",
+        "txt": "操作",
+        "trans": "operation"
+      },
+      {
+        "content": "驳回",
+        "index": 12,
+        "hash": "325254",
+        "txt": "驳回",
+        "trans": "reject"
+      },
+      {
+        "content": "通过",
+        "index": 13,
+        "hash": "23c1f3",
+        "txt": "通过",
+        "trans": "adopt"
+      }
+    ]
+  },
+  {
+    "file": "src/app5/index.js",
+    "map": [
+      {
+        "content": "全部",
+        "index": 0,
+        "hash": "a8b0c2",
+        "txt": "全部",
+        "trans": "whole"
+      },
+      {
+        "content": "业务",
+        "index": 1,
+        "hash": "4af9dc",
+        "txt": "业务",
+        "trans": "business"
+      },
+      {
+        "content": "部门",
+        "index": 2,
+        "hash": "1e1459",
+        "txt": "部门",
+        "trans": "department"
+      },
+      {
+        "content": "某人的直属下级",
+        "index": 3,
+        "hash": "94372a",
+        "txt": "某人的直属下级",
+        "trans": "aPersonsImmediateSubordinate"
+      },
+      {
+        "content": "授权操作人",
+        "index": 4,
+        "hash": "6356c3",
+        "txt": "授权操作人",
+        "trans": "authorizedOperator"
+      },
+      {
+        "content": "序列／级别",
+        "index": 5,
+        "hash": "101112",
+        "txt": "序列／级别",
+        "trans": "sequenceLevel"
+      },
+      {
+        "content": "入职日期",
+        "index": 6,
+        "hash": "642aa9",
+        "txt": "入职日期",
+        "trans": "dateOfEntry"
+      },
+      {
+        "content": "薪资方案",
+        "index": 7,
+        "hash": "792e61",
+        "txt": "薪资方案",
+        "trans": "salaryPlan"
+      },
+      {
+        "content": "全部",
+        "index": 8,
+        "hash": "a8b0c2",
+        "txt": "全部",
+        "trans": "whole"
+      },
+      {
+        "content": "某人的直属下级",
+        "index": 9,
+        "hash": "94372a",
+        "txt": "某人的直属下级",
+        "trans": "aPersonsImmediateSubordinate"
+      },
+      {
+        "content": "授权操作人",
+        "index": 10,
+        "hash": "6356c3",
+        "txt": "授权操作人",
+        "trans": "authorizedOperator"
+      },
+      {
+        "content": "序列／级别",
+        "index": 11,
+        "hash": "101112",
+        "txt": "序列／级别",
+        "trans": "sequenceLevel"
+      },
+      {
+        "content": "入职日期",
+        "index": 12,
+        "hash": "642aa9",
+        "txt": "入职日期",
+        "trans": "dateOfEntry"
+      },
+      {
+        "content": "薪资方案",
+        "index": 13,
+        "hash": "792e61",
+        "txt": "薪资方案",
+        "trans": "salaryPlan"
+      },
+      {
+        "content": "无分数",
+        "index": 14,
+        "hash": "97eedd",
+        "txt": "无分数",
+        "trans": "noScore"
+      },
+      {
+        "content": "无分数",
+        "index": 15,
+        "hash": "97eedd",
+        "txt": "无分数",
+        "trans": "noScore"
+      },
+      {
+        "content": "无分数",
+        "index": 16,
+        "hash": "97eedd",
+        "txt": "无分数",
+        "trans": "noScore"
+      },
+      {
+        "content": "无",
+        "index": 17,
+        "hash": "d81bb2",
+        "txt": "无",
+        "trans": "nothing"
+      },
+      {
+        "content": "汇总",
+        "index": 18,
+        "hash": "1993ed",
+        "txt": "汇总",
+        "trans": "summary"
+      }
+    ]
+  },
+  {
+    "file": "src/app6/index.js",
+    "map": [
+      {
+        "content": "确定",
+        "index": 0,
+        "hash": "38cf16",
+        "txt": "确定",
+        "trans": "sure"
+      }
+    ]
+  },
+  {
+    "file": "src/app7/index.js",
+    "map": [
+      {
+        "content": "给Leader操作者权限",
+        "index": 0,
+        "hash": "1d25e2",
+        "txt": "给Leader操作者权限",
+        "trans": "giveLeaderOperatorPrivileges"
+      },
+      {
+        "content": "自定义",
+        "index": 1,
+        "hash": "f1d4ff",
+        "txt": "自定义",
+        "trans": "custom"
+      },
+      {
+        "content": "请选择角色",
+        "index": 2,
+        "hash": "aabcdc",
+        "txt": "请选择角色",
+        "trans": "pleaseSelectRoles"
+      },
+      {
+        "content": "请输入原因",
+        "index": 3,
+        "hash": "d63114",
+        "txt": "请输入原因",
+        "trans": "pleaseInputTheReason"
+      },
+      {
+        "content": "授权给",
+        "index": 4,
+        "hash": "5a166f",
+        "txt": "授权给",
+        "trans": "authorizedTo"
+      },
+      {
+        "content": "姓名／拼音／邮箱",
+        "index": 5,
+        "hash": "c20a6b",
+        "txt": "姓名／拼音／邮箱",
+        "trans": "namePinyinMailbox"
+      },
+      {
+        "content": "（可以看到数据，但不能进行操作）",
+        "index": 6,
+        "hash": "e1a2b0",
+        "txt": "（可以看到数据但不能进行操作）",
+        "trans": "DataCanBeSeen"
+      },
+      {
+        "content": "操作者",
+        "index": 7,
+        "hash": "6b0bc6",
+        "txt": "操作者",
+        "trans": "operator"
+      },
+      {
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "index": 8,
+        "hash": "e12372",
+        "txt": "（需要进行实际操作全部操作完成后必须进行「提交」）",
+        "trans": "SubmissionMustBeMade"
+      },
+      {
+        "content": "观察者",
+        "index": 9,
+        "hash": "cab083",
+        "txt": "观察者",
+        "trans": "observer"
+      },
+      {
+        "content": "（可以看到数据，但不能进行操作）",
+        "index": 10,
+        "hash": "e1a2b0",
+        "txt": "（可以看到数据但不能进行操作）",
+        "trans": "DataCanBeSeen"
+      },
+      {
+        "content": "操作者",
+        "index": 11,
+        "hash": "6b0bc6",
+        "txt": "操作者",
+        "trans": "operator"
+      },
+      {
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "index": 12,
+        "hash": "e12372",
+        "txt": "（需要进行实际操作全部操作完成后必须进行「提交」）",
+        "trans": "SubmissionMustBeMade"
+      },
+      {
+        "content": "授权角色",
+        "index": 13,
+        "hash": "da8f62",
+        "txt": "授权角色",
+        "trans": "authorizedRole"
+      },
+      {
+        "content": "观察者",
+        "index": 14,
+        "hash": "cab083",
+        "txt": "观察者",
+        "trans": "observer"
+      },
+      {
+        "content": "（可以看到数据，但不能进行操作）",
+        "index": 15,
+        "hash": "e1a2b0",
+        "txt": "（可以看到数据但不能进行操作）",
+        "trans": "DataCanBeSeen"
+      },
+      {
+        "content": "操作者",
+        "index": 16,
+        "hash": "6b0bc6",
+        "txt": "操作者",
+        "trans": "operator"
+      },
+      {
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "index": 17,
+        "hash": "e12372",
+        "txt": "（需要进行实际操作全部操作完成后必须进行「提交」）",
+        "trans": "SubmissionMustBeMade"
+      },
+      {
+        "content": "观察者",
+        "index": 18,
+        "hash": "cab083",
+        "txt": "观察者",
+        "trans": "observer"
+      },
+      {
+        "content": "（可以看到数据，但不能进行操作）",
+        "index": 19,
+        "hash": "e1a2b0",
+        "txt": "（可以看到数据但不能进行操作）",
+        "trans": "DataCanBeSeen"
+      },
+      {
+        "content": "操作者",
+        "index": 20,
+        "hash": "6b0bc6",
+        "txt": "操作者",
+        "trans": "operator"
+      },
+      {
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "index": 21,
+        "hash": "e12372",
+        "txt": "（需要进行实际操作全部操作完成后必须进行「提交」）",
+        "trans": "SubmissionMustBeMade"
+      },
+      {
+        "content": "授权范围",
+        "index": 22,
+        "hash": "bd505f",
+        "txt": "授权范围",
+        "trans": "scopeOfAuthorization"
+      },
+      {
+        "content": "以下员工提交后被系统默认移除",
+        "index": 23,
+        "hash": "ccdac6",
+        "txt": "以下员工提交后被系统默认移除",
+        "trans": "theFollowingEmployeesAre"
+      },
+      {
+        "content": "存在异常授权",
+        "index": 24,
+        "hash": "6c5b01",
+        "txt": "存在异常授权",
+        "trans": "exceptionAuthorizationExists"
+      },
+      {
+        "content": "如果需要继续授权，请填写授权原因，由项目管理员审批后，方可成功。",
+        "index": 25,
+        "hash": "8ffc21",
+        "txt": "如果需要继续授权请填写授权原因由项目管理员审批后方可成功",
+        "trans": "ifYouNeedTo"
+      },
+      {
+        "content": "请输入授权原因",
+        "index": 26,
+        "hash": "3acf62",
+        "txt": "请输入授权原因",
+        "trans": "pleaseEnterTheReason"
+      }
+    ]
+  },
+  {
+    "file": "src/app8/index.js",
+    "map": [
+      {
+        "content": "④ 中位值*a",
+        "index": 0,
+        "hash": "3ccfdc",
+        "txt": "④中位值*a",
+        "trans": "4MedianValue*a"
+      },
+      {
+        "content": "③ 上限（新下限）*a",
+        "index": 1,
+        "hash": "2bdfb2",
+        "txt": "③上限（新下限）*a",
+        "trans": "3UpperLimitnew"
+      },
+      {
+        "content": "② 中位值*a",
+        "index": 2,
+        "hash": "98002a",
+        "txt": "②中位值*a",
+        "trans": "2MedianValue*a"
+      },
+      {
+        "content": "① 下限*a",
+        "index": 3,
+        "hash": "4ed1b6",
+        "txt": "①下限*a",
+        "trans": "1TheLowerLimit*a"
+      },
+      {
+        "content": "涨幅0%",
+        "index": 4,
+        "hash": "4afe2a",
+        "txt": "涨幅0",
+        "trans": "or0"
+      },
+      {
+        "content": "涨幅0",
+        "index": 5,
+        "hash": "f7fd80",
+        "txt": "涨幅0",
+        "trans": "or0"
+      },
+      {
+        "content": "1、涨幅0～10%",
+        "index": 6,
+        "hash": "8f2d85",
+        "txt": "1涨幅010",
+        "trans": "1Gain010"
+      },
+      {
+        "content": "2、不超过③",
+        "index": 7,
+        "hash": "b02bf1",
+        "txt": "2不超过③",
+        "trans": "2NoMoreThan3"
+      },
+      {
+        "content": "条件: group2",
+        "index": 8,
+        "hash": "490cfc",
+        "txt": "条件group2",
+        "trans": "conditionGroup2"
+      },
+      {
+        "content": "涨幅0%",
+        "index": 9,
+        "hash": "4afe2a",
+        "txt": "涨幅0",
+        "trans": "or0"
+      },
+      {
+        "content": "涨幅10%",
+        "index": 10,
+        "hash": "9d1525",
+        "txt": "涨幅10",
+        "trans": "or10"
+      },
+      {
+        "content": "1、涨幅10%~30%",
+        "index": 11,
+        "hash": "f402ca",
+        "txt": "1涨幅1030",
+        "trans": "1Gain1030"
+      },
+      {
+        "content": "条件：group1",
+        "index": 12,
+        "hash": "7cc9a1",
+        "txt": "条件group1",
+        "trans": "conditionGroup1"
+      },
+      {
+        "content": "1、涨幅30%～50%",
+        "index": 13,
+        "hash": "e988f7",
+        "txt": "1涨幅3050",
+        "trans": "1Gain3050"
+      }
+    ]
+  },
+  {
+    "file": "src/app9/index.js",
+    "map": [
+      {
+        "content": "低于${xxx}下限",
+        "index": 0,
+        "hash": "1e0c4d",
+        "txt": "低于$xxx下限",
+        "trans": "lowerThan-$xxxLower"
+      },
+      {
+        "content": "高于${xxx}上限",
+        "index": 1,
+        "hash": "3c875a",
+        "txt": "高于$xxx上限",
+        "trans": "above-$xxxLimit"
+      },
+      {
+        "content": "没有超出${xxx}",
+        "index": 2,
+        "hash": "ffc071",
+        "txt": "没有超出$xxx",
+        "trans": "noMoreThan-$xxx"
+      },
+      {
+        "content": "横条表示${xxx}",
+        "index": 3,
+        "hash": "936182",
+        "txt": "横条表示$xxx",
+        "trans": "stripeIndicates-$xxx"
+      },
+      {
+        "content": "的${xxx}乘以${aaa}",
+        "index": 4,
+        "hash": "34d1ab",
+        "txt": "的$xxx乘以$aaa",
+        "trans": "$xxxMultipliedBy$aaa"
+      },
+      {
+        "content": "${xxx}的${bbb}",
+        "index": 5,
+        "hash": "46f6f7",
+        "txt": "$xxx的$bbb",
+        "trans": "$bbbOf$xxx"
+      },
+      {
+        "content": "${xxx}万。",
+        "index": 6,
+        "hash": "7338f5",
+        "txt": "$xxx万",
+        "trans": "$xxxMillion"
+      }
+    ]
+  }
+]

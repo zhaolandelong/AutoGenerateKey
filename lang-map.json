@@ -1,0 +1,322 @@
+{
+  "word-activityName-39834b": {
+    "en-US": "",
+    "zh-CN": "活动名称"
+  },
+  "long-activityNameEnglish-c91a58": {
+    "en-US": "",
+    "zh-CN": "活动名称（英文）"
+  },
+  "word-projectManager-c98b01": {
+    "en-US": "",
+    "zh-CN": "项目管理员"
+  },
+  "long-selectProjectAdministrator-2a1887": {
+    "en-US": "",
+    "zh-CN": "请选择项目管理员"
+  },
+  "word-activityOperator-f812ac": {
+    "en-US": "",
+    "zh-CN": "活动操作者"
+  },
+  "long-pleaseSelectASalaryRaising-340293": {
+    "en-US": "",
+    "zh-CN": "请选择调薪操作者"
+  },
+  "long-enterNamepinyinmailboxPrefixFor-8a1283": {
+    "en-US": "",
+    "zh-CN": "输入姓名／拼音／邮箱前缀进行搜索"
+  },
+  "long-allowBatchImport-after-3de020": {
+    "en-US": "",
+    "zh-CN": "允许批量导入（勾选后，操作者可在活动中批量导入结果）"
+  },
+  "word-configurationApprovalProcess-0a26f4": {
+    "en-US": "",
+    "zh-CN": "配置审批流程"
+  },
+  "word-pleaseChooseTheApprover-d93a9a": {
+    "en-US": "",
+    "zh-CN": "请选择审批人"
+  },
+  "long-loadingALotOf-4854fb": {
+    "en-US": "",
+    "zh-CN": "正在加载大量数据，请稍等...💪"
+  },
+  "word-noData-21efd8": {
+    "en-US": "",
+    "zh-CN": "暂无数据"
+  },
+  "word-newAuthorization-515a9b": {
+    "en-US": "",
+    "zh-CN": "新增授权"
+  },
+  "word-authorizedPerson-ff2053": {
+    "en-US": "",
+    "zh-CN": "被授权人"
+  },
+  "word-theTwoAuthorization-937b06": {
+    "en-US": "",
+    "zh-CN": "二次授权"
+  },
+  "word-authorizedObject-8124ff": {
+    "en-US": "",
+    "zh-CN": "授权对象"
+  },
+  "word-more-0ec9ea": {
+    "en-US": "",
+    "zh-CN": "更多"
+  },
+  "word-numberOfEmployees-725179": {
+    "en-US": "",
+    "zh-CN": "员工数"
+  },
+  "word-people-465afe": {
+    "en-US": "",
+    "zh-CN": "人"
+  },
+  "word-authorizationType-53782f": {
+    "en-US": "",
+    "zh-CN": "授权类型"
+  },
+  "word-authorizedTime-9c4bb4": {
+    "en-US": "",
+    "zh-CN": "授权时间"
+  },
+  "word-exceptionPrompt-4bb98f": {
+    "en-US": "",
+    "zh-CN": "异常提示"
+  },
+  "word-reasonsForAuthorization-2b7c6d": {
+    "en-US": "",
+    "zh-CN": "授权原因"
+  },
+  "word-permissionStatus-b714df": {
+    "en-US": "",
+    "zh-CN": "权限状态"
+  },
+  "word-operation-2b6bc0": {
+    "en-US": "",
+    "zh-CN": "操作"
+  },
+  "word-sure-38cf16": {
+    "en-US": "",
+    "zh-CN": "确定"
+  },
+  "word-cancel-625fb2": {
+    "en-US": "",
+    "zh-CN": "取消"
+  },
+  "word-rejectionResult-736199": {
+    "en-US": "",
+    "zh-CN": "驳回结果"
+  },
+  "word-cancellationOfAuthorization-5642a3": {
+    "en-US": "",
+    "zh-CN": "取消授权"
+  },
+  "long-theAuthorizedPersonWill-b08842": {
+    "en-US": "",
+    "zh-CN": "取消授权后被授权人将不再看到活动，被授权人操作的所有授权也会被取消，驳回结果后，被授权人将重新拥有编辑权限"
+  },
+  "word-activitiesInvolved-c4f8f2": {
+    "en-US": "",
+    "zh-CN": "所属活动"
+  },
+  "word-reject-325254": {
+    "en-US": "",
+    "zh-CN": "驳回"
+  },
+  "word-adopt-23c1f3": {
+    "en-US": "",
+    "zh-CN": "通过"
+  },
+  "word-whole-a8b0c2": {
+    "en-US": "",
+    "zh-CN": "全部"
+  },
+  "word-business-4af9dc": {
+    "en-US": "",
+    "zh-CN": "业务"
+  },
+  "word-department-1e1459": {
+    "en-US": "",
+    "zh-CN": "部门"
+  },
+  "long-aPersonsImmediateSubordinate-94372a": {
+    "en-US": "",
+    "zh-CN": "某人的直属下级"
+  },
+  "word-authorizedOperator-6356c3": {
+    "en-US": "",
+    "zh-CN": "授权操作人"
+  },
+  "word-sequenceLevel-101112": {
+    "en-US": "",
+    "zh-CN": "序列／级别"
+  },
+  "word-dateOfEntry-642aa9": {
+    "en-US": "",
+    "zh-CN": "入职日期"
+  },
+  "word-salaryPlan-792e61": {
+    "en-US": "",
+    "zh-CN": "薪资方案"
+  },
+  "word-noScore-97eedd": {
+    "en-US": "",
+    "zh-CN": "无分数"
+  },
+  "word-nothing-d81bb2": {
+    "en-US": "",
+    "zh-CN": "无"
+  },
+  "word-summary-1993ed": {
+    "en-US": "",
+    "zh-CN": "汇总"
+  },
+  "long-giveLeaderOperatorPrivileges-1d25e2": {
+    "en-US": "",
+    "zh-CN": "给Leader操作者权限"
+  },
+  "word-custom-f1d4ff": {
+    "en-US": "",
+    "zh-CN": "自定义"
+  },
+  "word-pleaseSelectRoles-aabcdc": {
+    "en-US": "",
+    "zh-CN": "请选择角色"
+  },
+  "word-pleaseInputTheReason-d63114": {
+    "en-US": "",
+    "zh-CN": "请输入原因"
+  },
+  "word-authorizedTo-5a166f": {
+    "en-US": "",
+    "zh-CN": "授权给"
+  },
+  "long-namePinyinMailbox-c20a6b": {
+    "en-US": "",
+    "zh-CN": "姓名／拼音／邮箱"
+  },
+  "long-DataCanBeSeen-e1a2b0": {
+    "en-US": "",
+    "zh-CN": "（可以看到数据，但不能进行操作）"
+  },
+  "word-operator-6b0bc6": {
+    "en-US": "",
+    "zh-CN": "操作者"
+  },
+  "long-SubmissionMustBeMade-e12372": {
+    "en-US": "",
+    "zh-CN": "（需要进行实际操作，全部操作完成后，必须进行「提交」）"
+  },
+  "word-observer-cab083": {
+    "en-US": "",
+    "zh-CN": "观察者"
+  },
+  "word-authorizedRole-da8f62": {
+    "en-US": "",
+    "zh-CN": "授权角色"
+  },
+  "word-scopeOfAuthorization-bd505f": {
+    "en-US": "",
+    "zh-CN": "授权范围"
+  },
+  "long-theFollowingEmployeesAre-ccdac6": {
+    "en-US": "",
+    "zh-CN": "以下员工提交后被系统默认移除"
+  },
+  "word-exceptionAuthorizationExists-6c5b01": {
+    "en-US": "",
+    "zh-CN": "存在异常授权"
+  },
+  "long-ifYouNeedTo-8ffc21": {
+    "en-US": "",
+    "zh-CN": "如果需要继续授权，请填写授权原因，由项目管理员审批后，方可成功。"
+  },
+  "long-pleaseEnterTheReason-3acf62": {
+    "en-US": "",
+    "zh-CN": "请输入授权原因"
+  },
+  "word-4MedianValue*a-3ccfdc": {
+    "en-US": "",
+    "zh-CN": "④ 中位值*a"
+  },
+  "long-3UpperLimitnew-2bdfb2": {
+    "en-US": "",
+    "zh-CN": "③ 上限（新下限）*a"
+  },
+  "word-2MedianValue*a-98002a": {
+    "en-US": "",
+    "zh-CN": "② 中位值*a"
+  },
+  "word-1TheLowerLimit*a-4ed1b6": {
+    "en-US": "",
+    "zh-CN": "① 下限*a"
+  },
+  "word-or0-4afe2a": {
+    "en-US": "",
+    "zh-CN": "涨幅0%"
+  },
+  "word-or0-f7fd80": {
+    "en-US": "",
+    "zh-CN": "涨幅0"
+  },
+  "word-1Gain010-8f2d85": {
+    "en-US": "",
+    "zh-CN": "1、涨幅0～10%"
+  },
+  "word-2NoMoreThan3-b02bf1": {
+    "en-US": "",
+    "zh-CN": "2、不超过③"
+  },
+  "long-conditionGroup2-490cfc": {
+    "en-US": "",
+    "zh-CN": "条件: group2"
+  },
+  "word-or10-9d1525": {
+    "en-US": "",
+    "zh-CN": "涨幅10%"
+  },
+  "long-1Gain1030-f402ca": {
+    "en-US": "",
+    "zh-CN": "1、涨幅10%~30%"
+  },
+  "long-conditionGroup1-7cc9a1": {
+    "en-US": "",
+    "zh-CN": "条件：group1"
+  },
+  "long-1Gain3050-e988f7": {
+    "en-US": "",
+    "zh-CN": "1、涨幅30%～50%"
+  },
+  "long-lowerThan-$xxxLower-1e0c4d": {
+    "en-US": "",
+    "zh-CN": "低于${xxx}下限"
+  },
+  "long-above-$xxxLimit-3c875a": {
+    "en-US": "",
+    "zh-CN": "高于${xxx}上限"
+  },
+  "long-noMoreThan-$xxx-ffc071": {
+    "en-US": "",
+    "zh-CN": "没有超出${xxx}"
+  },
+  "long-stripeIndicates-$xxx-936182": {
+    "en-US": "",
+    "zh-CN": "横条表示${xxx}"
+  },
+  "long-$xxxMultipliedBy$aaa-34d1ab": {
+    "en-US": "",
+    "zh-CN": "的${xxx}乘以${aaa}"
+  },
+  "long-$bbbOf$xxx-46f6f7": {
+    "en-US": "",
+    "zh-CN": "${xxx}的${bbb}"
+  },
+  "word-$xxxMillion-7338f5": {
+    "en-US": "",
+    "zh-CN": "${xxx}万。"
+  }
+}

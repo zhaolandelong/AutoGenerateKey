@@ -1,0 +1,699 @@
+[
+  {
+    "file": "src/app1/index.js",
+    "map": [
+      {
+        "line": 116,
+        "column": 28,
+        "content": "活动名称",
+        "wrapper": true
+      },
+      {
+        "line": 131,
+        "column": 28,
+        "content": "活动名称（英文）",
+        "wrapper": true
+      },
+      {
+        "line": 140,
+        "column": 28,
+        "content": "项目管理员",
+        "wrapper": true
+      },
+      {
+        "line": 144,
+        "column": 27,
+        "content": "请选择项目管理员"
+      },
+      {
+        "line": 147,
+        "column": 36,
+        "content": "请选择项目管理员",
+        "wrapper": true
+      },
+      {
+        "line": 154,
+        "column": 28,
+        "content": "活动操作者",
+        "wrapper": true
+      },
+      {
+        "line": 158,
+        "column": 27,
+        "content": "请选择调薪操作者"
+      },
+      {
+        "line": 162,
+        "column": 30,
+        "content": "输入姓名／拼音／邮箱前缀进行搜索",
+        "wrapper": true
+      },
+      {
+        "line": 180,
+        "column": 26,
+        "content": "允许批量导入（勾选后，操作者可在活动中批量导入结果）",
+        "wrapper": true
+      },
+      {
+        "line": 195,
+        "column": 28,
+        "content": "配置审批流程",
+        "wrapper": true
+      },
+      {
+        "line": 200,
+        "column": 27,
+        "content": "请选择审批人"
+      },
+      {
+        "line": 204,
+        "column": 30,
+        "content": "输入姓名／拼音／邮箱前缀进行搜索",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app2/index.js",
+    "map": [
+      {
+        "line": 47,
+        "column": 39,
+        "content": "正在加载大量数据，请稍等...💪",
+        "wrapper": true
+      },
+      {
+        "line": 51,
+        "column": 78,
+        "content": "暂无数据",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app3/index.js",
+    "map": [
+      {
+        "line": 89,
+        "column": 12,
+        "content": "新增授权"
+      },
+      {
+        "line": 106,
+        "column": 15,
+        "content": "被授权人"
+      },
+      {
+        "line": 110,
+        "column": 15,
+        "content": "二次授权"
+      },
+      {
+        "line": 116,
+        "column": 15,
+        "content": "授权对象"
+      },
+      {
+        "line": 126,
+        "column": 44,
+        "content": "更多",
+        "wrapper": true
+      },
+      {
+        "line": 133,
+        "column": 15,
+        "content": "员工数"
+      },
+      {
+        "line": 137,
+        "column": 36,
+        "content": "人",
+        "wrapper": true
+      },
+      {
+        "line": 139,
+        "column": 15,
+        "content": "授权类型"
+      },
+      {
+        "line": 145,
+        "column": 15,
+        "content": "授权时间"
+      },
+      {
+        "line": 150,
+        "column": 15,
+        "content": "异常提示"
+      },
+      {
+        "line": 160,
+        "column": 44,
+        "content": "更多",
+        "wrapper": true
+      },
+      {
+        "line": 166,
+        "column": 15,
+        "content": "授权原因"
+      },
+      {
+        "line": 170,
+        "column": 15,
+        "content": "权限状态"
+      },
+      {
+        "line": 176,
+        "column": 15,
+        "content": "操作"
+      },
+      {
+        "line": 187,
+        "column": 133,
+        "content": "确定",
+        "wrapper": true
+      },
+      {
+        "line": 187,
+        "column": 149,
+        "content": "取消",
+        "wrapper": true
+      },
+      {
+        "line": 188,
+        "column": 52,
+        "content": "驳回结果",
+        "wrapper": true
+      },
+      {
+        "line": 193,
+        "column": 129,
+        "content": "确定",
+        "wrapper": true
+      },
+      {
+        "line": 193,
+        "column": 145,
+        "content": "取消",
+        "wrapper": true
+      },
+      {
+        "line": 194,
+        "column": 57,
+        "content": "取消授权",
+        "wrapper": true
+      },
+      {
+        "line": 211,
+        "column": 47,
+        "content": "取消授权后被授权人将不再看到活动，被授权人操作的所有授权也会被取消，驳回结果后，被授权人将重新拥有编辑权限",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app4/index.js",
+    "map": [
+      {
+        "line": 65,
+        "column": 15,
+        "content": "被授权人"
+      },
+      {
+        "line": 70,
+        "column": 15,
+        "content": "所属活动"
+      },
+      {
+        "line": 75,
+        "column": 15,
+        "content": "授权对象"
+      },
+      {
+        "line": 85,
+        "column": 44,
+        "content": "更多",
+        "wrapper": true
+      },
+      {
+        "line": 92,
+        "column": 15,
+        "content": "员工数"
+      },
+      {
+        "line": 97,
+        "column": 15,
+        "content": "授权类型"
+      },
+      {
+        "line": 103,
+        "column": 15,
+        "content": "授权时间"
+      },
+      {
+        "line": 108,
+        "column": 15,
+        "content": "异常提示"
+      },
+      {
+        "line": 118,
+        "column": 44,
+        "content": "更多",
+        "wrapper": true
+      },
+      {
+        "line": 124,
+        "column": 15,
+        "content": "授权原因"
+      },
+      {
+        "line": 129,
+        "column": 15,
+        "content": "权限状态"
+      },
+      {
+        "line": 135,
+        "column": 15,
+        "content": "操作"
+      },
+      {
+        "line": 144,
+        "column": 119,
+        "content": "驳回",
+        "wrapper": true
+      },
+      {
+        "line": 145,
+        "column": 117,
+        "content": "通过",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app5/index.js",
+    "map": [
+      {
+        "line": 110,
+        "column": 11,
+        "content": "全部"
+      },
+      {
+        "line": 114,
+        "column": 11,
+        "content": "业务"
+      },
+      {
+        "line": 118,
+        "column": 11,
+        "content": "部门"
+      },
+      {
+        "line": 122,
+        "column": 11,
+        "content": "某人的直属下级"
+      },
+      {
+        "line": 126,
+        "column": 11,
+        "content": "授权操作人"
+      },
+      {
+        "line": 130,
+        "column": 11,
+        "content": "序列／级别"
+      },
+      {
+        "line": 134,
+        "column": 11,
+        "content": "入职日期"
+      },
+      {
+        "line": 138,
+        "column": 11,
+        "content": "薪资方案"
+      },
+      {
+        "line": 146,
+        "column": 11,
+        "content": "全部"
+      },
+      {
+        "line": 150,
+        "column": 11,
+        "content": "某人的直属下级"
+      },
+      {
+        "line": 154,
+        "column": 11,
+        "content": "授权操作人"
+      },
+      {
+        "line": 158,
+        "column": 11,
+        "content": "序列／级别"
+      },
+      {
+        "line": 162,
+        "column": 11,
+        "content": "入职日期"
+      },
+      {
+        "line": 166,
+        "column": 11,
+        "content": "薪资方案"
+      },
+      {
+        "line": 1032,
+        "column": 50,
+        "content": "无分数"
+      },
+      {
+        "line": 1044,
+        "column": 50,
+        "content": "无分数"
+      },
+      {
+        "line": 1056,
+        "column": 50,
+        "content": "无分数"
+      },
+      {
+        "line": 1089,
+        "column": 52,
+        "content": "无"
+      },
+      {
+        "line": 1485,
+        "column": 11,
+        "content": "汇总"
+      }
+    ]
+  },
+  {
+    "file": "src/app6/index.js",
+    "map": [
+      {
+        "line": 36,
+        "column": 32,
+        "content": "确定",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app7/index.js",
+    "map": [
+      {
+        "line": 158,
+        "column": 12,
+        "content": "给Leader操作者权限"
+      },
+      {
+        "line": 198,
+        "column": 12,
+        "content": "自定义"
+      },
+      {
+        "line": 256,
+        "column": 19,
+        "content": "请选择角色"
+      },
+      {
+        "line": 264,
+        "column": 25,
+        "content": "请输入原因"
+      },
+      {
+        "line": 269,
+        "column": 16,
+        "content": "授权给",
+        "wrapper": true
+      },
+      {
+        "line": 279,
+        "column": 26,
+        "content": "姓名／拼音／邮箱",
+        "wrapper": true
+      },
+      {
+        "line": 306,
+        "column": 86,
+        "content": "（可以看到数据，但不能进行操作）",
+        "wrapper": true
+      },
+      {
+        "line": 307,
+        "column": 68,
+        "content": "操作者",
+        "wrapper": true
+      },
+      {
+        "line": 308,
+        "column": 47,
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "wrapper": true
+      },
+      {
+        "line": 312,
+        "column": 52,
+        "content": "观察者",
+        "wrapper": true
+      },
+      {
+        "line": 312,
+        "column": 86,
+        "content": "（可以看到数据，但不能进行操作）",
+        "wrapper": true
+      },
+      {
+        "line": 313,
+        "column": 67,
+        "content": "操作者",
+        "wrapper": true
+      },
+      {
+        "line": 314,
+        "column": 47,
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "wrapper": true
+      },
+      {
+        "line": 320,
+        "column": 20,
+        "content": "授权角色",
+        "wrapper": true
+      },
+      {
+        "line": 327,
+        "column": 52,
+        "content": "观察者",
+        "wrapper": true
+      },
+      {
+        "line": 327,
+        "column": 86,
+        "content": "（可以看到数据，但不能进行操作）",
+        "wrapper": true
+      },
+      {
+        "line": 328,
+        "column": 68,
+        "content": "操作者",
+        "wrapper": true
+      },
+      {
+        "line": 329,
+        "column": 47,
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "wrapper": true
+      },
+      {
+        "line": 333,
+        "column": 52,
+        "content": "观察者",
+        "wrapper": true
+      },
+      {
+        "line": 333,
+        "column": 86,
+        "content": "（可以看到数据，但不能进行操作）",
+        "wrapper": true
+      },
+      {
+        "line": 334,
+        "column": 67,
+        "content": "操作者",
+        "wrapper": true
+      },
+      {
+        "line": 335,
+        "column": 47,
+        "content": "（需要进行实际操作，全部操作完成后，必须进行「提交」）",
+        "wrapper": true
+      },
+      {
+        "line": 342,
+        "column": 16,
+        "content": "授权范围",
+        "wrapper": true
+      },
+      {
+        "line": 383,
+        "column": 50,
+        "content": "以下员工提交后被系统默认移除",
+        "wrapper": true
+      },
+      {
+        "line": 397,
+        "column": 81,
+        "content": "存在异常授权",
+        "wrapper": true
+      },
+      {
+        "line": 410,
+        "column": 56,
+        "content": "如果需要继续授权，请填写授权原因，由项目管理员审批后，方可成功。",
+        "wrapper": true
+      },
+      {
+        "line": 429,
+        "column": 28,
+        "content": "请输入授权原因",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app8/index.js",
+    "map": [
+      {
+        "line": 14,
+        "column": 44,
+        "content": "④ 中位值*a",
+        "wrapper": true
+      },
+      {
+        "line": 17,
+        "column": 16,
+        "content": "③ 上限（新下限）*a",
+        "wrapper": true
+      },
+      {
+        "line": 20,
+        "column": 43,
+        "content": "② 中位值*a",
+        "wrapper": true
+      },
+      {
+        "line": 23,
+        "column": 43,
+        "content": "① 下限*a",
+        "wrapper": true
+      },
+      {
+        "line": 30,
+        "column": 97,
+        "content": "涨幅0%",
+        "wrapper": true
+      },
+      {
+        "line": 32,
+        "column": 20,
+        "content": "涨幅0",
+        "wrapper": true
+      },
+      {
+        "line": 34,
+        "column": 16,
+        "content": "1、涨幅0～10%",
+        "wrapper": true
+      },
+      {
+        "line": 35,
+        "column": 16,
+        "content": "2、不超过③",
+        "wrapper": true
+      },
+      {
+        "line": 37,
+        "column": 44,
+        "content": "条件: group2",
+        "wrapper": true
+      },
+      {
+        "line": 40,
+        "column": 83,
+        "content": "涨幅0%",
+        "wrapper": true
+      },
+      {
+        "line": 41,
+        "column": 71,
+        "content": "涨幅10%",
+        "wrapper": true
+      },
+      {
+        "line": 45,
+        "column": 17,
+        "content": "1、涨幅10%~30%",
+        "wrapper": true
+      },
+      {
+        "line": 55,
+        "column": 39,
+        "content": "条件：group1",
+        "wrapper": true
+      },
+      {
+        "line": 58,
+        "column": 17,
+        "content": "1、涨幅30%～50%",
+        "wrapper": true
+      }
+    ]
+  },
+  {
+    "file": "src/app9/index.js",
+    "map": [
+      {
+        "line": 11,
+        "column": 8,
+        "content": "低于${xxx}下限"
+      },
+      {
+        "line": 12,
+        "column": 8,
+        "content": "高于${xxx}上限"
+      },
+      {
+        "line": 13,
+        "column": 10,
+        "content": "没有超出${xxx}"
+      },
+      {
+        "line": 102,
+        "column": 10,
+        "content": "横条表示${xxx}",
+        "wrapper": true
+      },
+      {
+        "line": 102,
+        "column": 39,
+        "content": "的${xxx}乘以${aaa}",
+        "wrapper": true
+      },
+      {
+        "line": 102,
+        "column": 62,
+        "content": "${xxx}的${bbb}",
+        "wrapper": true
+      },
+      {
+        "line": 103,
+        "column": 61,
+        "content": "${xxx}万。",
+        "wrapper": true
+      }
+    ]
+  }
+]
