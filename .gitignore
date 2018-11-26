@@ -28,3 +28,4 @@ scripts/node/
 !libs/people-ui-adapter/dist
 node-v8.11.1.tar.xz
 data
+/src/utils/translate-cache.json

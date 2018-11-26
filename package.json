@@ -22,6 +22,7 @@
     "lodash": "^4.17.11"
   },
   "dependencies": {
+    "@ies/starling_node": "^1.2.0",
     "axios": "^0.18.0",
     "baidu-translate-api": "^0.3.0",
     "md5": "^2.2.1"

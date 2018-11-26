@@ -1,7 +1,10 @@
+const fs = require('fs');
+const path = require('path');
 const md5 = require('md5');
 const translate = require("baidu-translate-api");
 const _ = require('lodash');
 const camelCase = require('camelcase');
+const translateCache = require('./translate-cache.json');
 
 const FILTER_CHARS = [
   /[|\\\/\(\)\[\]\{\}\s\%]/g, // base
@@ -40,14 +43,21 @@ function groupWords(wordsArr = [], groupSize = 10) {
   return finalArr;
 }
 
-async function transByGroups(groups = [], callback) {
+async function translateByGroup(groups = [], callback) {
   const len = groups.length;
   if (len === 0) return;
   for (let i = 0; i < len; i++) {
-    const res = await translate(groups[i], { from: 'zh', to: 'en' });
-    const result = _.get(res, 'trans_result.dst', '');
+    let result;
+    if (Object.hasOwnProperty.call(translateCache, groups[i])) {
+      result = translateCache[groups[i]];
+    } else {
+      const res = await translate(groups[i], { from: 'zh', to: 'en' });
+      result = _.get(res, 'trans_result.dst', '');
+      translateCache[groups[i]] = result;
+      fs.writeFile(path.resolve(__dirname, './translate-cache.json'), JSON.stringify(translateCache, null, 2), (err) => err && console.log(err));
+      await delay(1000);
+    }
     callback(result);
-    await delay(1000);
   }
 }
 
@@ -67,38 +77,29 @@ async function transFile(fileMap) {
     }
   });
 
-  // console.log(words)
-  // console.log(sentences)
-  // const wordGroups = groupWords(words.map(wd => wd.txt), 30);
   const wordGroups = words.map(wd => wd.txt);
-  const sentenceGroups = sentences.map(wd => wd.txt);
-  // console.log(wordGroups)
-  // console.log(sentenceGroups)
-  // return
   let wordIndex = 0;
-  await transByGroups(wordGroups, result => {
-    // console.log(result)
+  await translateByGroup(wordGroups, result => {
     result.split('\n').forEach(wd => {
       words[wordIndex].trans = cleanTxt(camelCase(wd));
       wordIndex += 1;
     });
   });
-  // return
+
+  const sentenceGroups = sentences.map(wd => wd.txt);
   let wsentenceIndex = 0;
-  await transByGroups(sentenceGroups, result => {
-    // console.log(result)
+  await translateByGroup(sentenceGroups, result => {
     sentences[wsentenceIndex].trans = cleanTxt(camelCase(result.split(' ').filter((r, i) => (i < 4)).join(' ')));
     wsentenceIndex += 1;
   });
-  // console.log(words)
-  // console.log(sentences)
+
   words.forEach(wd => {
     fileMap[wd.index] = wd;
   });
+
   sentences.forEach(st => {
     fileMap[st.index] = st;
   });
-  // fs.writeFileSync('./full.json', JSON.stringify(data[0], null, 2));
 }
 
 function formatLangMap(data) {
